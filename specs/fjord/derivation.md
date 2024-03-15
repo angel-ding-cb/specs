@@ -65,7 +65,7 @@ Verify `sourceHash`:
 Verify `data`:
 
 ```bash
-git checkout fbdba16ce5fe0207ceeb8487d762807888aa43f5 (update once merged)
+git checkout 3d6c2402b346ed43ece295c75349a6ea4625834e (update once merged)
 pnpm clean && pnpm install && pnpm build
 jq -r ".bytecode.object" packages/contracts-bedrock/forge-artifacts/GasPriceOracle.sol/GasPriceOracle.json
 ```
